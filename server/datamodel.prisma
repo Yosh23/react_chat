@@ -2,3 +2,9 @@ type User {
   id: ID! @unique
   name: String!
 }
+type Chat {
+  id: ID! @unique
+  from: String!
+  content: String!
+  createdAt: DateTime!
+}
